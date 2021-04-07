@@ -13,27 +13,58 @@ html {
   font-size: 16px;
 }
 
-h1 {
+.tableReader .back {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  text-decoration: none;
+  color: black;
+  background-color: #eeeeef;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.tableReader .research {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  text-decoration: none;
+  color: black;
+  background-color: #eeeeef;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.tableReader .back:hover,
+.tableReader .research:hover {
+  transform: scale(1.05);
+  color: #333333;
+}
+
+.tableReader h1 {
   text-align: center;
   margin-top: 4rem;
   font-size: 2rem;
 }
 
-h1 a {
+.tableReader h1 a {
   text-decoration: none;
   color: black;
 }
-h1 a:focus {
+
+.tableReader h1 a:focus {
   color: hotpink;
 }
 
-aside,
-section {
+.tableReader aside,
+.tableReader section {
   width: min(700px, 90vw);
   margin: 0 auto;
 }
 
-table {
+.tableReader table {
   border-collapse: collapse;
   margin: 25px auto;
   font-size: 0.9rem;
@@ -41,46 +72,47 @@ table {
   text-align: left;
 }
 
-table caption {
+.tableReader table caption {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
-table thead tr {
+.tableReader table thead tr {
   background-color: #0a86bf;
   color: white;
   font-weight: bold;
 }
 
-table th,
-table td {
+.tableReader table th,
+.tableReader table td {
   padding: 12px 15px;
 }
 
-table tbody tr {
+.tableReader table tbody tr {
   border-bottom: 1px solid #dddddd;
 }
 
-table tbody tr:nth-of-type(even) {
+.tableReader table tbody tr:nth-of-type(even) {
   background-color: #f3f3f3;
 }
 
-table tbody tr:last-of-type {
+.tableReader table tbody tr:last-of-type {
   border-bottom: 2px solid #0a86bf;
 }
 
-table:nth-child(2) tr th,
-table:nth-child(2) tr td {
+.tableReader table:nth-child(2) tr th,
+.tableReader table:nth-child(2) tr td {
   font-family: monospace;
 }
 
-section article {
+.tableReader section article {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-section article aside {
+
+.tableReader section article aside {
   width: unset;
   display: flex;
   justify-content: start;
