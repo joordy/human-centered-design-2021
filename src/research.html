@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <aside>
+      <table>
+        <caption>
+          HTML tabel
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Product</th>
+            <th scope="col">Price</th>
+            <th scope="col">Vegan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr scope="row" tabindex="0">
+            <th>Peach</th>
+            <td>1.99 €</td>
+            <td>yes</td>
+          </tr>
+          <tr scope="row" tabindex="0">
+            <th>Cucumber</th>
+            <td>0.99 €</td>
+            <td>yes</td>
+          </tr>
+          <tr scope="row" tabindex="0">
+            <th>Cheeseburger</th>
+            <td>7.99 €</td>
+            <td>no</td>
+          </tr>
+          <tr scope="row" tabindex="0">
+            <th>Eggplant</th>
+            <td>1.35 €</td>
+            <td>yes</td>
+          </tr>
+        </tbody>
+      </table>
+    </aside>
+
+    <aside>
+      <table>
+        <caption>
+          Accessibility keyboard functies
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Attribute</th>
+            <th scope="col">Accessible</th>
+            <th scope="col">Usable in Javascript to detect</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr scope="row" tabindex="0">
+            <th>Focus</th>
+            <td>Yes</td>
+            <td>No, but in CSS</td>
+          </tr>
+          <tr scope="row">
+            <th>Scope</th>
+            <td>No</td>
+            <td>yes</td>
+          </tr>
+          <tr scope="row">
+            <th>TabIndex</th>
+            <td>Yes</td>
+            <td>No, but in CSS</td>
+          </tr>
+          <!-- <tr scope="row">
+            <th>Cheeseburger</th>
+            <td>7.99 €</td>
+            <td>no</td>
+          </tr>
+          <tr scope="row" id="para">
+            <th>Eggplant</th>
+            <td>1.35 €</td>
+            <td>yes</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </aside>
+
+    <p id="output"></p>
+    <script src="js/app.js"></script>
+  </body>
+</html>
