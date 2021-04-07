@@ -28,11 +28,11 @@
  npm run dev
 ```
 
-<!-- ### Build export for deployment
+### Build export for deployment
 
 ```bash
  npm run build
-``` -->
+```
 
 ## 🔍 **Sources**
 
