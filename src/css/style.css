@@ -27,6 +27,12 @@ h1 a:focus {
   color: hotpink;
 }
 
+aside,
+section {
+  width: min(700px, 90vw);
+  margin: 0 auto;
+}
+
 table {
   border-collapse: collapse;
   margin: 25px auto;
@@ -67,4 +73,17 @@ table tbody tr:last-of-type {
 table:nth-child(2) tr th,
 table:nth-child(2) tr td {
   font-family: monospace;
+}
+
+section article {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+section article aside {
+  width: unset;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0;
 }
