@@ -1,13 +1,13 @@
 console.log('hi');
 
-function init() {
-  window.speechSynthesis.speak(new SpeechSynthesisUtterance('Hello World'));
-}
+// function init() {
+//   // window.speechSynthesis.speak(new SpeechSynthesisUtterance('Hello World'));
+// }
 
-init();
+// init();
 
-let paragraph = document.getElementById('para');
-let output = document.getElementById('output');
+// let paragraph = document.getElementById('para');
+// let output = document.getElementById('output');
 
 // if (paragraph.matches(':scope')) {
 //   console.log(paragraph.innerText);
