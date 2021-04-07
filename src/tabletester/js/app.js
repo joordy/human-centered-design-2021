@@ -14,3 +14,13 @@ console.log('hi');
 //   output.innerText = 'Yep, the element is its own scope as expected!';
 //   window.speechSynthesis.speak(new SpeechSynthesisUtterance(paragraph.innerText));
 // }
+
+const elements = document.querySelectorAll('tr');
+console.log(elements);
+
+elements.forEach((item) => {
+  item.addEventListener('focus', (e) => {
+    window.speechSynthesis.speak(new SpeechSynthesisUtterance(e.srcElement.innerText));
+    console.log(e.srcElement.innerText);
+  });
+});
