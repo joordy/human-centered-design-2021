@@ -10,12 +10,12 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 20px;
   background-color: black;
   color: white;
 }
 
-.tableReader .back {
+.runningSchedule .back {
   position: absolute;
   top: 50px;
   left: 50px;
@@ -27,7 +27,7 @@ html {
   transition: 0.3s;
 }
 
-.tableReader .research {
+.runningSchedule .research {
   position: absolute;
   bottom: 50px;
   left: 50px;
@@ -39,85 +39,98 @@ html {
   transition: 0.3s;
 }
 
-.tableReader .back:hover,
-.tableReader .research:hover {
+.runningSchedule .back:hover,
+.runningSchedule .research:hover {
   transform: scale(1.05);
   color: #333333;
 }
 
-.tableReader h1 {
+.runningSchedule h1 {
   text-align: center;
   margin-top: 4rem;
   font-size: 2rem;
 }
 
-.tableReader h1 a {
+.runningSchedule h1 a {
   text-decoration: none;
   color: black;
 }
 
-.tableReader h1 a:focus {
+.runningSchedule h1 a:focus {
   color: hotpink;
 }
 
-.tableReader aside,
-.tableReader section {
+.runningSchedule section {
   width: min(700px, 90vw);
-  margin: 0 auto;
+  margin: 0 auto 5rem;
 }
 
-.tableReader table {
+.runningSchedule table {
   border-collapse: collapse;
   margin: 25px auto;
   font-size: 0.9rem;
-  min-width: min(400px, 90vw);
+  min-width: min(600px, 90vw);
   text-align: left;
 }
 
-.tableReader table caption {
+.runningSchedule table caption {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
-.tableReader table thead tr {
-  background-color: #0a86bf;
+.runningSchedule table thead tr {
+  background-color: #6c0000;
   color: white;
   font-weight: bold;
 }
 
-.tableReader table th,
-.tableReader table td {
-  padding: 12px 15px;
+.runningSchedule table th,
+.runningSchedule table td {
+  padding: 1.5rem 15px;
 }
 
-.tableReader table tbody tr {
+.runningSchedule table tbody tr {
   border-bottom: 1px solid #dddddd;
 }
 
-.tableReader table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+.runningSchedule table tbody tr:nth-of-type(even) {
+  background-color: #6c0000;
 }
 
-.tableReader table tbody tr:last-of-type {
+.runningSchedule table tbody tr:last-of-type {
   border-bottom: 2px solid #0a86bf;
 }
 
-.tableReader table:nth-child(2) tr th,
-.tableReader table:nth-child(2) tr td {
+.runningSchedule table:nth-child(2) tr th,
+.runningSchedule table:nth-child(2) tr td {
   font-family: monospace;
 }
 
-.tableReader section article {
+.runningSchedule section article {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
 
-.tableReader section article aside {
+.runningSchedule section article {
+  width: 100%;
+  display: flex;
+}
+.runningSchedule section button {
+  background-color: #00b9f3;
+  border: none;
+  min-width: min(600px, 90vw);
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+.runningSchedule section button:focus {
+  background-color: yellow;
+}
+/* .runningSchedule section article aside {
   width: unset;
   display: flex;
   justify-content: start;
   align-items: center;
   margin: 0;
-}
+} */
