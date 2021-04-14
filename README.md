@@ -4,9 +4,9 @@
 
 ## 🌐 **Live link**
 
-## 🚀 **Features**
+<!-- ## 🚀 **Features**
 
-## 📦 **NPM Packages**
+## 📦 **NPM Packages** -->
 
 ## 💻 **Installation**
 
