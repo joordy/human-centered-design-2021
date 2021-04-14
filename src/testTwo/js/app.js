@@ -1,6 +1,6 @@
 let weekOne = document.querySelector('#weekOne');
 let weekTwo = document.querySelector('#weekTwo');
-weekOne.addEventListener('click', (e) => {
+weekOne.addEventListener('focus', (e) => {
   const conversation = [
     'Hi Roger! This is your schedule for week 1.',
     'Training 1. 70 minutes endurance run',
@@ -10,7 +10,7 @@ weekOne.addEventListener('click', (e) => {
   playSchedule(conversation);
 });
 
-weekTwo.addEventListener('click', (e) => {
+weekTwo.addEventListener('focus', (e) => {
   const conversation = [
     'Hi Roger! This is your schedule for week 2.',
     'Training 1. 95 minutes endurance run',
