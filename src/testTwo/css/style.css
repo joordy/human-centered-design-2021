@@ -15,10 +15,16 @@ html {
   color: white;
 }
 
+body {
+  margin: 1rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
 .runningSchedule .back {
-  position: absolute;
-  top: 50px;
-  left: 50px;
+  margin-top: 1rem;
   text-decoration: none;
   color: black;
   background-color: #eeeeef;
@@ -27,26 +33,14 @@ html {
   transition: 0.3s;
 }
 
-.runningSchedule .research {
-  position: absolute;
-  bottom: 50px;
-  left: 50px;
-  text-decoration: none;
-  color: black;
-  background-color: #eeeeef;
-  padding: 10px 25px;
-  border-radius: 8px;
-  transition: 0.3s;
-}
-
-.runningSchedule .back:hover,
-.runningSchedule .research:hover {
+.runningSchedule .back:hover {
   transform: scale(1.05);
   color: #333333;
 }
-
+.runningSchedule .back:focus {
+  background-color: yellow;
+}
 .runningSchedule h1 {
-  text-align: center;
   margin-top: 4rem;
   font-size: 2rem;
 }
@@ -61,13 +55,13 @@ html {
 }
 
 .runningSchedule section {
-  width: min(700px, 90vw);
-  margin: 0 auto 5rem;
+  /* width: min(700px, 90vw); */
+  margin: 0 0 5rem;
 }
 
 .runningSchedule table {
   border-collapse: collapse;
-  margin: 25px auto;
+  margin: 25px 0;
   font-size: 0.9rem;
   min-width: min(600px, 90vw);
   text-align: left;
@@ -121,11 +115,17 @@ html {
   background-color: #00b9f3;
   border: none;
   min-width: min(600px, 90vw);
-  margin: 0 auto;
+  margin: 0 0;
   padding: 1rem 2rem;
 }
 .runningSchedule section button:focus {
   background-color: yellow;
+  font-size: 0px;
+}
+
+.runningSchedule section button:focus:after {
+  content: 'Press enter to listen to your schedule';
+  font-size: 1rem;
 }
 /* .runningSchedule section article aside {
   width: unset;
