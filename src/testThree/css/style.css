@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+}
+
+html {
+  font-size: 20px;
+  background-color: black;
+  color: #eeeeef;
+}
+
+header {
+  height: 100px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.keuzemenu main {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: calc(100vh - 100px);
+}
+
+a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+a:first-child {
+  background-color: #ff0000;
+}
+
+a:last-child {
+  background-color: #007ba2;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+}
+
+html {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+body {
+  margin: 1rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+.runningSchedule .back {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: black;
+  background-color: #eeeeef;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.runningSchedule .back:hover {
+  transform: scale(1.05);
+  color: #333333;
+}
+.runningSchedule .back:focus {
+  background-color: yellow;
+}
+.runningSchedule h1 {
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.runningSchedule h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.runningSchedule h1 a:focus {
+  color: hotpink;
+}
+
+.runningSchedule section {
+
+  margin: 0 0 5rem;
+}
+
+.runningSchedule table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+  min-width: min(600px, 90vw);
+  text-align: left;
+}
+
+.runningSchedule table caption {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.runningSchedule table thead tr {
+  background-color: #6c0000;
+  color: white;
+  font-weight: bold;
+}
+
+.runningSchedule table th,
+.runningSchedule table td {
+  padding: 1.5rem 15px;
+}
+
+.runningSchedule table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.runningSchedule table tbody tr:nth-of-type(even) {
+  background-color: #6c0000;
+}
+
+.runningSchedule table tbody tr:last-of-type {
+  border-bottom: 2px solid #0a86bf;
+}
+
+.runningSchedule table:nth-child(2) tr th,
+.runningSchedule table:nth-child(2) tr td {
+  font-family: monospace;
+}
+
+.runningSchedule section article {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.runningSchedule section article {
+  width: 100%;
+  display: flex;
+}
+.runningSchedule section button {
+  background-color: #00b9f3;
+  border: none;
+  min-width: min(600px, 90vw);
+  margin: 0 0;
+  padding: 1rem 2rem;
+}
+.runningSchedule section button:focus {
+  background-color: yellow;
+  font-size: 0px;
+}
+
+.runningSchedule section button:focus:after {
+  content: 'Press enter to listen to your schedule';
+  font-size: 1rem;
+} */

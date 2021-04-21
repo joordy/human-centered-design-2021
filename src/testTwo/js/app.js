@@ -25,10 +25,7 @@ function playSchedule(conversation) {
   conversation.forEach((convo) => {
     const utterance = new SpeechSynthesisUtterance(convo);
     utterance.rate = 0.8;
+    utterance.lang = 'nl-NL';
     speechSynthesis.speak(utterance);
   });
-}
-
-if (weekOne.focus()) {
-  console.log('focussed');
 }
