@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+}
+
+html {
+  font-size: 20px;
+  background-color: black;
+  color: #eeeeef;
+}
+
+.back {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: black;
+  background-color: #eeeeef;
+  padding: 10px 10px;
+  font-size: 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.back:hover {
+  transform: scale(1.05);
+  color: #333333;
+}
+.back:focus {
+  background-color: yellow;
+}
+
+body {
+  margin: 1rem;
+}
+body main {
+  margin: 3rem 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.calNavigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.calNavigation h2 {
+  font-size: 1rem;
+}
+
+body main #weekdays,
+body main #calendar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 1rem 0;
+}
+
+body main #weekdays {
+  font-size: 16px;
+}
+
+body main #weekdays article,
+#calendar button {
+  text-align: center;
+}
+
+body main #calendar button {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /* height: 150px; */
+  margin: 5px;
+  padding: 10px;
+}
+
+button:not([disabled]) {
+  background-color: #157c47;
+  color: #eeeeef;
+}
+
+button[disabled] {
+  opacity: 0.6;
+}
+
+button.disabled {
+  opacity: 0.6;
+}
+button span {
+  font-size: 12px;
+  display: block;
+}
+
+button > span:first-of-type {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}

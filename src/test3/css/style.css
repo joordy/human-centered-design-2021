@@ -17,9 +17,10 @@ html {
 
 header {
   height: 100px;
-  display: grid;
-  place-items: center;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  align-items: center;
 }
 
 .keuzemenu main {
@@ -29,7 +30,7 @@ header {
   height: calc(100vh - 100px);
 }
 
-a {
+main a {
   width: 100%;
   height: 100%;
   display: flex;
@@ -38,12 +39,30 @@ a {
   text-decoration: none;
   color: white;
 }
-a:first-child {
+main a:first-child {
   background-color: #ff0000;
 }
 
-a:last-child {
+main a:last-child {
   background-color: #007ba2;
+}
+
+.back {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: black;
+  background-color: #eeeeef;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.back:hover {
+  transform: scale(1.05);
+  color: #333333;
+}
+.back:focus {
+  background-color: yellow;
 }
 
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
