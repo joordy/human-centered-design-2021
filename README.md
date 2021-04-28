@@ -2,11 +2,23 @@
 
 ## 🔦 **Description**
 
+Dit vak staat in het teken van een ontwerp opdracht voor een specifieke gebruiker. Deze gebruiker is niet fictief, maar test je meerdere malen het ontwerp mee. Door te testen en iteratieslagen te maken ga je je eigen ontwerp verbeteren. Het resultaat wat hier uit voortkomt is een ontwerp wat exclusief gemaakt is voor 1 gebruiker, oftewel: Exclusive Design. 
+
+![Final design](https://user-images.githubusercontent.com/48051912/116427543-6921d700-a844-11eb-81e4-14b81b7b373b.png)
+
+---
+
 ## 🌐 **Live link**
 
-<!-- ## 🚀 **Features**
+Het ontwerp is hier te bekijken en te gebruiken: [hcd.jorrr.dev](http://hcd.jorrr.dev)
 
-## 📦 **NPM Packages** -->
+---
+
+## 📝 **Process**
+
+Het hele proces, met onder meer een user scenario, testverslagen en een conclusie zijn terug te vinden in mijn [wiki](https://github.com/joordy/human-centered-design-2021/wiki). Veel leesplezier! 
+
+---
 
 ## 💻 **Installation**
 
@@ -34,9 +46,20 @@
  npm run build
 ```
 
+---
+
 ## 🔍 **Sources**
 
+- MDN. (2021, February 19). SpeechSynthesis - Web APIs | MDN. https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis
+- van Gemert, V. (n.d.). The Exclusive Design Principles. Vasilis.Nl. https://exclusive-design.vasilis.nl/principles/
+
+---
+
 ## 🔐 **License**
+
+Dit is een repository met een [MIT](https://github.com/joordy/human-centered-design-2021/blob/master/LICENSE) licentie. Developed by Jordy Fronik ©️ 2021.
+
+---
 
 <!-- Here are some hints for your project! -->
 
